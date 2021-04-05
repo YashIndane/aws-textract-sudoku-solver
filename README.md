@@ -26,7 +26,7 @@ aws s3api create-bucket --bucket <bucket-name> --region <region-name> --create-b
 
 ## Working
 
-The file ```detect.py```, saves the image of the board and uploads it to the S3 bucket in AWS. Now by using Textract API with boto3 this image is analyzed with ```FeatureTypes``` as TABLES. The digits are then fed to the sudoku solver which solves and prints the soluition.
+The file ```detect.py```, saves the image of the board and uploads it to the S3 bucket in AWS. Now by using Textract API with boto3 this image is analyzed with ```FeatureTypes``` as ```TABLES```. The digits are then fed to the sudoku solver which solves and prints the solution.
 
 ## Usage
 
