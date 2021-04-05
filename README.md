@@ -20,3 +20,9 @@ Now create a bucket in AWS S3 by
 aws s3api create-bucket --bucket <bucket-name> --region <region-name> --create-bucket-configuration LocationConstraint=<region-name>
 ```
 
+## Usage
+
+Run the file ```detect.py```, and put your phone with the sudoku board image in front of your webcam
+
+
+
