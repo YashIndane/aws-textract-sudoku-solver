@@ -24,5 +24,9 @@ aws s3api create-bucket --bucket <bucket-name> --region <region-name> --create-b
 
 Run the file ```detect.py```, and put your phone with the sudoku board image in front of your webcam
 
+solved sample->
+
+![](solved.png)
+
 
 
