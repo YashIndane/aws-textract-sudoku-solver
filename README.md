@@ -2,6 +2,8 @@
 
 # aws-textract-sudoku-solver
 
+![](tp.png)
+
 ## Requirements
 
 ```
