@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Python-%F0%9F%90%8D-brightgreen)
+
 # aws-textract-sudoku-solver
 
 ## Requirements
@@ -6,7 +8,7 @@
 pip install awscli
 ```
 
-After installation of ```awscli``` login by
+After installation of ```awscli```, login by
 
 ```
 aws configure
