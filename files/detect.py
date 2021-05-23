@@ -10,15 +10,15 @@ print(ret)
 cap.release()  
 
 #upload photo in s3
-#enter s3 bucket name
-bucket_name = "" 
+region = ""
+bucket_name = ""
 file_name = "sudoku.jpg"
 
 s3 = boto3.resource("s3") 
 s3.Bucket(bucket_name).upload_file(file_name , file_name)
 
 # Call Amazon Textract
-textract = boto3.client('textract')
+textract = boto3.client('textract', region_name = region)
 
 response = textract.analyze_document(
 
@@ -53,7 +53,6 @@ for i in range(1 , 81):
 
 sudoku_array = [temp_array[9*x:9*(x+1)] for x in range(9)]
 
-#solving the sudoku
 solved_array = sudoku3.solve(sudoku_array)
 solved_array = [solved_array[9*x:9*(x+1)] for x in range(9)]
 
