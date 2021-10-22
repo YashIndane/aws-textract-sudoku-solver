@@ -7,23 +7,23 @@
 ## Requirements
 
 ```
-pip install awscli
+$ pip install awscli
 ```
 
 ```
-pip install opencv-python
+$ pip install opencv-python
 ```
 
 After installation of ```awscli```, login by
 
 ```
-aws configure
+$ aws configure
 ```
 
 Now create a bucket in AWS S3 by
 
 ```
-aws s3api create-bucket --bucket <bucket-name> --region <region-name> --create-bucket-configuration LocationConstraint=<region-name>
+$ aws s3api create-bucket --bucket <bucket-name> --region <region-name> --create-bucket-configuration LocationConstraint=<region-name>
 ```
 
 ## Working
@@ -37,6 +37,3 @@ Run the file ```detect.py```, and put your phone with the sudoku board image in 
 solved sample->
 
 ![](solved.png)
-
-
-
