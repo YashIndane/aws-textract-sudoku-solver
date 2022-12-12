@@ -2,7 +2,7 @@
 
 # aws-textract-sudoku-solver
 
-![](tp.png)
+![tp](https://user-images.githubusercontent.com/53041219/207024049-5e100995-065b-4805-b3bb-0f35445892c8.png)
 
 ## Requirements
 
@@ -36,4 +36,4 @@ Run the file ```detect.py```, and put your phone with the sudoku board image in 
 
 solved sample->
 
-![](solved.png)
+![solved](https://user-images.githubusercontent.com/53041219/207025383-d2d14c91-5d91-49e4-a4a5-01c3b682a6e1.png)
